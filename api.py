@@ -23,7 +23,6 @@ class GeniusApi:
         self.redis_cache = Cache()
         self.dynamo_db = DynamoDatabase()
 
-
     @property
     def token(self):
         return self._token
